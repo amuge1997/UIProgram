@@ -45,9 +45,9 @@ class Main(QMainWindow,WidgetManager,ui2a3):
         self.regWidget('timelabel',self.bk_time)
 
 
-        self.Task4 = Task4(self)
-        self.Task5 = Task5(self)
-        self.Task6 = Task6(self)
+        self.Task4 = Task_uichange(self)
+        self.Task5 = Task_programbuil(self)
+        self.Task6 = Task_save(self)
 
         self.rc_inpu.textChanged.connect(self.Task4.getSlot('t4slot'))
 

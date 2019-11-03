@@ -63,7 +63,7 @@ class SignalManager:
     def f3(self,sr):
         self.wid_tLabel.setText(sr)
 
-class Task6(SignalManager,SlotManager,QThread):
+class Task_save(SignalManager,SlotManager,QThread):
     def __init__(self,inst_QT):
         SlotManager.__init__(self)
         QThread.__init__(self)

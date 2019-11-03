@@ -7,9 +7,9 @@ try:
     except:
         from WidgetManager import WidgetManager
 
-    from Task4 import Task4
-    from Task5 import Task5
-    from Task6 import Task6
+    from Task_uichange import Task_uichange
+    from Task_programbuil import Task_programbuil
+    from Task_save import Task_save
     import sys
 except Exception as e:
     print(e)

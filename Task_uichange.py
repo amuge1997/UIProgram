@@ -24,7 +24,7 @@ class SignalManager():
         wid_textOupt.setStyleSheet("color:{}".format(color))
         wid_textOupt.setText(sr)
 
-class Task4(SlotManager,SignalManager,QThread):
+class Task_uichange(SlotManager,SignalManager,QThread):
     def __init__(self,ins_QT):
         self.ins_QT = ins_QT
         QThread.__init__(self)

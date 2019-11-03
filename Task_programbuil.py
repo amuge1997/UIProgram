@@ -30,7 +30,7 @@ class SignalManager:
         wid_path2.setText('')
         wid_path3.setText('')
 
-class Task5(SlotManager,SignalManager,QThread):
+class Task_programbuil(SlotManager,SignalManager,QThread):
     def __init__(self,inst_QT):
         QThread.__init__(self)
         SlotManager.__init__(self)
